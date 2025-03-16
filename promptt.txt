@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head><title> prompt </title>
+
+<script type="text/javascript">
+
+function show_prompt()
+{var name=prompt("Please enter your name:");
+ if(name!=null && name!="")
+{document.write("Hello " + name+"! How are you?");}}
+
+</script>
+</head>
+<body>
+<input type="button" onClick="show_prompt()" value="Click me!")
+</body>
+</html>

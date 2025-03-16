@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head><title> Lessons for 4th Quarter </title> 
+
+
+<script type="text/javascript">
+function check()
+{
+if (document.example.answer.value=="If Statement")
+{document.write("Your answer is correct");}
+else if (document.example.answer.value=="")
+{document.write("You didn't answer the question!");}
+else
+{document.write("Sorry your answer was incorrect. Try again!");}}
+</script>
+
+
+</head>
+<body bgcolor="#323055" text="beige" align="center">
+
+<h1> .~Lessons for the 4th Quarter~. </h1><br><br>
+<font size="5">
+<h2> *Lesson 1* </h2>
+<p align="left">
+> Events - actions that are triggered either by mouse click, function calls, keyboard strokes, loading of images, submitting an HTML form, etc.
+Usually used in connection with functions. <br>
+> Functions will not work without a force that will trigger it. You can use event handlers to respond to an event on your page. <br><br>
+<img src="event triggers1.png" width="500" height="250" align="center"><br>
+<img src="event triggers2.png" width="500" height="250" align="center"><br>
+<img src="event triggers3.png" width="500" height="250"><br><br><br><br>
+
+EVENTS<br>
+> Onload and onunload events are triggered when a user enters or exits a web page. Can also be used to store and retrieve cookies. <br><br>
+
+> Cookie - message given to a web browser. <br><br>
+
+> Onload - can be used to check the web browser version type and version. <br><br><br>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<br>
+
+~ Onfocus, onblur, onchange - these attributes are often used with the validation of fields in a form. <br>
+EX: a user selects a row in a table, through JS, the whole row can be highlighted to give emphasis to the selected row.<br><br>
+
+~ Onsubmit - used to validate all fields in the form before submitting it. <br>
+
+> When the submit button is clicked, it will call a function checkFields(). The function will check all the fields in the form. If everything is cleared, it will return a ‘true’ so the form will be submitted; otherwise, it will return to a ‘false’ so the form will be cancelled. <br><br><br>
+
+~ Onmouseover and onmouseout - usually used for animation purposes. <br><br>
+
+~ Onclick - usually used to connect you to another webpage or to trigger an event call.
+<br><br>
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<br>
+
+> Popup Boxes - windows that pop-out of the screen.<br>
+JS has three kinds: alert box, user-input prompt box and confirm box.<br><br>
+1. Alert Box - usually used when you want to make sure that the user reads your message such as a warning or a greeting. <br>
+SYNTAX: alert(“message”); <br>
+<img src="alertt.png" width="500" height="250"><br><br>
+
+
+2. User-Input Prompt Box- usually used when you want data to be prompted first before the user can enter a page. <br>
+SYNTAX: prompt(“message”, “defaultvalue”);<br>
+<img src="prompt.png" width="500" height="250"><br><br>
+
+3. Confirm Box - usually used when you want the user to verify or accept something. <br> SYNTAX: confirm(“message”);<br>
+<img src="confirm.png" width="500" height="250">
+ </p> <br><br><br>
+
+
+<h2> *Lesson 2* </h2>
+<p align="left">
+* Conditional Statements - perform different actions for different decisions. <br><br>
+
+> If Statement - used to check or verify a condition and execute a set of statements only if the condition is true. This should be referred as a statement and not as a function. <br>
+- One of the most popular and important conditional constructs in JS and in other programming languages. <br>
+- Evaluates a condition to True or False. It then runs a specific code depending on the result of this evaluation. <br>
+<img src="if.png" width="500" height="250"><br><br>
+
+
+> Nested If Statement - like an “if statement” with another “if statement”, just like a parent and a child. <br>
+- Used when “child” condition is only checked when the parent condition is true. <br><br>
+SYNTAX: <br>
+if (condition 1) <br>
+{ if (condition 2)<br>
+{ //set of statements that will be executed }}<br><br>
+
+
+> If-Else Statement - has also the same format as “if statement” but an Else part is added. <br>
+- If the condition satisfies the statement inside an If statement, part of the code will be executed. And Else statement inside Else part only will be executed. <br>
+- Giving an alternative instruction in case the arguments isn’t TRUE. <br><br>
+
+SYNTAX:<br>
+if (condition)<br>
+{//set of statements if condition satisfies}<br>
+else<br>
+{//set of statements if condition fails}<br>
+<img src="if else 1.png" width="300" height="250"><br><br>
+<img src="if else 2.png" width="500" height="250"><br><br>
+
+
+> If Else If Statement - multiple conditions<br>
+- statement that depends on another if statement.<br>
+- telling the browser that something is True, then do something else, if the other thing is True, then do something else, and so on. <br>
+<img src="if else if.png" width="500" height="250"><br><br>
+
+
+> Switch Statement - used when a condition may have multiple results and a different set of operation is done based on each result or input. <br><br>
+SYNTAX<br>
+switch(condition)<br>
+{ case result1: <br>
+//operation for result 1 <br>
+Case result2: <br>
+//operation for result 2<br>
+. <br>
+. <br> 
+default: <br>
+//If result belongs to none of the case specified.}<br>
+<img src="switch.png" width="500" height="250"><br><br>
+ </p> <br><br><br>
+
+
+
+<h2> *Lesson 3* </h2>
+<p align="left">
+<b> Conditions, Controls and Loops</b> <br><br>
+
+> Function - self-contained piece of code that performs a particular “function” when it is called and it is also a set of statements or blocks of codes combined together for a particular use, also known as method. <br>
+- Usually used so that you will not have to retype your codes again. <br> 
+- A function can be called anywhere within the page or even from an external JS file.
+<br>
+
+- Defined using the keyword “function” followed by its name and then open and close parentheses. This is known as an argument. <br><br>
+
+> Argument - provides additional information needed by the function to process. <br><br>
+
+SYNTAX: <br>
+function <br>
+functionname(var1, var2, var3…,varN) <br>
+{//Place your codes here} <br><br>
+
+> functionname is the name of the function. <br>
+> var1, var2, var3…,VarN are the parameters. <br> 
+These are the values that are passed on to the function whenever it is triggered. <br><br>
+
+> Open and close braces are required in functions. A function without parameters should include the open and close parentheses () after the name of the function and remember the function must be in lowercase, otherwise, a JS error will be called. <br><br>
+
+EX OF FUNCTIONS: document.write(), add() and check()<br><br>
+
+document.write() - predefined function<br>
+add() and check() - user-defined functions<br><br>
+
+> Variables that are declared within a function will not last outside the function. If you want to save or reuse the value of the variable, you can use a return function. You can also put a return statement in the function so that the value stored while using the function can be returned. <br><br>
+
+EXAMPLE<br>
+<img src="function.png" width="500" height="250"><br><br>
+<img src="function 2.png" width="500" height="250"><br><br>
+
+
+Return Statement - functions that give out a value must use the return statement. <br>
+<img src="return.png" width="500" height="250">
+ </p> <br><br><br>
+
+
+<p> What is used to check or verify a condition and execute a set of statements only if the condition is true? </p>
+<form name="example">
+<input type="text" name="answer" value="">
+<input type="button" name="answerbutton" value="submit" onClick=check()>
+</form>
+
+<a href="Rhaizel Mariez C. Legaspi_G9-Faith_E-Portfolio_ICT.html">Click here to return to the Home Page!</a>
+</font>
+</body>
+</html>

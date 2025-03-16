@@ -1,0 +1,12 @@
+body{font-family:Comic Sans MS; font-size:23px; background-color:#90509C; color:#2E4C79;}
+h1,h2{color:#06152C; background-color:#6C3178; text-align:center;}
+h3{text-align:center; color:#323055;}
+p{color:#323055; text-align:center;}
+table{font-size:23px;}
+
+a{color:black;}
+
+a:link{color:#25406B;}
+a:visited{color:#3B84AD;}
+a:hover{color:black;}
+a:active{color:violet;}
